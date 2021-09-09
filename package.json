@@ -1,0 +1,19 @@
+{
+  "name": "google-calendar-activities",
+  "version": "1.0.0",
+  "description": "Consume google calendar API with NodeJs and display calendar activities in REACT for a logged in user",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Kenneth",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0"
+  }
+}
