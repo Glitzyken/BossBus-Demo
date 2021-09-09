@@ -81,7 +81,7 @@ app.post("/", async (req, res) => {
   res.status(200).json(arrOfEvents);
 });
 
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 app.listen(port, () => {
   console.log(`App running on port ${port}...`);
